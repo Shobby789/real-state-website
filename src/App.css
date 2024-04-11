@@ -16,6 +16,7 @@
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
 }
+
 a {
   color: inherit;
   text-decoration: none;
@@ -145,4 +146,27 @@ a {
   .orangeText {
     font-size: 1.2rem;
   }
+}
+
+/* / width /  */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 4px;
+}
+
+/* / Track /  */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* / Handle /  */
+::-webkit-scrollbar-thumb {
+  background: #3563e9;
+  border-radius: 10px;
+}
+
+/* / Handle on hover /  */
+::-webkit-scrollbar-thumb:hover {
+  background: #3563e9;
+  cursor: pointer;
 }
