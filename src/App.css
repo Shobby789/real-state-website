@@ -119,6 +119,10 @@ a {
   transform: scale(1.1);
 }
 
+.accordion {
+  border: none !important;
+}
+
 /* media queries */
 @media (min-width: 1536px) {
   .innerWidth {
